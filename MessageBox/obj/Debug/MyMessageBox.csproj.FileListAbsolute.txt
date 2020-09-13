@@ -1,0 +1,12 @@
+D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\MessageBox.dll
+D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\MessageBox.pdb
+D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\Guna.UI.dll
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.MsgYesNoCancel.resources
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.MsgYesNo.resources
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.MsgOK.resources
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.Properties.Resources.resources
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.csproj.GenerateResource.cache
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.csproj.CoreCompileInputs.cache
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.csproj.CopyComplete
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.dll
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.pdb
