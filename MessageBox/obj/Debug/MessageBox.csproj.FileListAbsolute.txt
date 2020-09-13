@@ -6,7 +6,6 @@ D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.csproj.GenerateResource
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.csproj.CoreCompileInputs.cache
 D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\MessageBox.dll
 D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\MessageBox.pdb
-D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\Guna.UI.dll
-D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.csproj.CopyComplete
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.dll
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.pdb
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.csprojAssemblyReference.cache

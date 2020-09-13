@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MessageBox</RootNamespace>
     <AssemblyName>MessageBox</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -32,8 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI">
-      <HintPath>C:\Users\txamm\Desktop\Apartment\Apartment\bin\Debug\Guna.UI.dll</HintPath>
+    <Reference Include="Guna.UI, Version=1.8.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\txamm\Desktop\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
@@ -108,6 +109,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ok_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_20px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel_23px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minus_23px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
