@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MessageBox.Properties {
+namespace MyMessageBox.Properties {
     using System;
     
     

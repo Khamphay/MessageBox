@@ -1,4 +1,4 @@
-﻿namespace MessageBox
+﻿namespace MyMessageBox
 {
     partial class MsgYesNo
     {
@@ -109,7 +109,7 @@
             this.btClose.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
             this.btClose.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btClose.Image = global::MessageBox.Properties.Resources.cancel_23px;
+            this.btClose.Image = global::MyMessageBox.Properties.Resources.cancel_23px;
             this.btClose.Location = new System.Drawing.Point(384, 1);
             this.btClose.Name = "btClose";
             this.btClose.Size = new System.Drawing.Size(30, 26);
@@ -119,7 +119,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::MessageBox.Properties.Resources.infor;
+            this.pictureBox1.Image = global::MyMessageBox.Properties.Resources.infor;
             this.pictureBox1.Location = new System.Drawing.Point(2, 1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(25, 25);
@@ -133,7 +133,7 @@
             this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
             this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Image = global::MessageBox.Properties.Resources.minus_23px;
+            this.button1.Image = global::MyMessageBox.Properties.Resources.minus_23px;
             this.button1.Location = new System.Drawing.Point(337, 1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(27, 26);
@@ -143,7 +143,7 @@
             // 
             // picIcon
             // 
-            this.picIcon.Image = global::MessageBox.Properties.Resources.infor;
+            this.picIcon.Image = global::MyMessageBox.Properties.Resources.infor;
             this.picIcon.Location = new System.Drawing.Point(3, 32);
             this.picIcon.Name = "picIcon";
             this.picIcon.Size = new System.Drawing.Size(40, 40);
