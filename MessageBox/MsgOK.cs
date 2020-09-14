@@ -47,9 +47,6 @@ namespace MessageBox
             get { return lbCaption.Text; }
             set { lbCaption.Text = value; }
         }
-
-
-
         bool mouse = false;
         int mouX = 0, mouY = 0;
         private void panel1_MouseDown(object sender, MouseEventArgs e)
