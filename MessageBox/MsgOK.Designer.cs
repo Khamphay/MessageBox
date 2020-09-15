@@ -30,15 +30,15 @@
         {
             this.lbMessage = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbCaption = new System.Windows.Forms.Label();
-            this.btOK = new System.Windows.Forms.Button();
             this.btClose = new System.Windows.Forms.Button();
+            this.lbCaption = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.picIcon = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btOK = new System.Windows.Forms.Button();
+            this.picIcon = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // lbMessage
@@ -70,27 +70,6 @@
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
             this.panel1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseUp);
             // 
-            // lbCaption
-            // 
-            this.lbCaption.AutoSize = true;
-            this.lbCaption.Font = new System.Drawing.Font("Phetsarath OT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCaption.Location = new System.Drawing.Point(29, 4);
-            this.lbCaption.Name = "lbCaption";
-            this.lbCaption.Size = new System.Drawing.Size(71, 21);
-            this.lbCaption.TabIndex = 4;
-            this.lbCaption.Text = "lbCaption";
-            // 
-            // btOK
-            // 
-            this.btOK.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.btOK.Font = new System.Drawing.Font("Times New Roman", 11.25F);
-            this.btOK.Location = new System.Drawing.Point(322, 109);
-            this.btOK.Name = "btOK";
-            this.btOK.Size = new System.Drawing.Size(39, 29);
-            this.btOK.TabIndex = 1;
-            this.btOK.Text = "OK";
-            this.btOK.UseVisualStyleBackColor = true;
-            // 
             // btClose
             // 
             this.btClose.FlatAppearance.BorderSize = 0;
@@ -104,6 +83,16 @@
             this.btClose.TabIndex = 560;
             this.btClose.UseVisualStyleBackColor = true;
             this.btClose.Click += new System.EventHandler(this.btClose_Click);
+            // 
+            // lbCaption
+            // 
+            this.lbCaption.AutoSize = true;
+            this.lbCaption.Font = new System.Drawing.Font("Phetsarath OT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCaption.Location = new System.Drawing.Point(29, 4);
+            this.lbCaption.Name = "lbCaption";
+            this.lbCaption.Size = new System.Drawing.Size(70, 21);
+            this.lbCaption.TabIndex = 4;
+            this.lbCaption.Text = "Message";
             // 
             // button1
             // 
@@ -119,16 +108,6 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.gunaCircleButton1_Click);
             // 
-            // picIcon
-            // 
-            this.picIcon.Image = global::MyMessageBox.Properties.Resources.infor;
-            this.picIcon.Location = new System.Drawing.Point(2, 30);
-            this.picIcon.Name = "picIcon";
-            this.picIcon.Size = new System.Drawing.Size(40, 40);
-            this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picIcon.TabIndex = 558;
-            this.picIcon.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MyMessageBox.Properties.Resources.infor;
@@ -138,6 +117,26 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 559;
             this.pictureBox1.TabStop = false;
+            // 
+            // btOK
+            // 
+            this.btOK.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.btOK.Font = new System.Drawing.Font("Times New Roman", 11.25F);
+            this.btOK.Location = new System.Drawing.Point(322, 109);
+            this.btOK.Name = "btOK";
+            this.btOK.Size = new System.Drawing.Size(39, 29);
+            this.btOK.TabIndex = 1;
+            this.btOK.Text = "OK";
+            this.btOK.UseVisualStyleBackColor = true;
+            // 
+            // picIcon
+            // 
+            this.picIcon.Location = new System.Drawing.Point(2, 30);
+            this.picIcon.Name = "picIcon";
+            this.picIcon.Size = new System.Drawing.Size(40, 40);
+            this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picIcon.TabIndex = 558;
+            this.picIcon.TabStop = false;
             // 
             // MsgOK
             // 
@@ -156,8 +155,8 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MsgOK_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

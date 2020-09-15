@@ -58,6 +58,10 @@ namespace MyMessageBox
             get { return lbCaption.Text; }
             set { lbCaption.Text = value; }
         }
+        public void setFont(string font, int size)
+        {
+            lbMessage.Font = new Font(font, size);
+        }
 
 
         bool mouse = false;

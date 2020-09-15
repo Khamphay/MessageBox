@@ -7,7 +7,7 @@
     <ProjectGuid>{8EE81513-EA12-4689-9E8C-6366C5900F65}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MessageBox</RootNamespace>
+    <RootNamespace>MyMessageBox</RootNamespace>
     <AssemblyName>MyMessageBox</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -114,6 +114,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minus_23px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help_50px.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

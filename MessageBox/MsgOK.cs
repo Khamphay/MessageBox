@@ -15,7 +15,9 @@ namespace MyMessageBox
             InitializeComponent();
         }
 
-        
+        bool mouse = false;
+        int mouX = 0, mouY = 0;
+
         private void btClose_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -47,8 +49,17 @@ namespace MyMessageBox
             get { return lbCaption.Text; }
             set { lbCaption.Text = value; }
         }
-        bool mouse = false;
-        int mouX = 0, mouY = 0;
+
+        public void setFont(string font, int size)
+        {
+            lbMessage.Font = new Font(font, size);
+        }
+
+        public void setFont(string font, int size, FontStyle style)
+        {
+            lbMessage.Font = new Font(font, size, style);
+        }
+
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             mouse = true;
@@ -68,5 +79,9 @@ namespace MyMessageBox
         {
             mouse = false;
         }
+
+
+
+
     }
 }

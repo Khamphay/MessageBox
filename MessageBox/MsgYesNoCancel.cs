@@ -64,6 +64,10 @@ namespace MyMessageBox
             set { lbCaption.Text = value; }
         }
 
+        public void setFont(string font, int size)
+        {
+            lbMessage.Font = new Font(font, size);
+        }
 
 
 

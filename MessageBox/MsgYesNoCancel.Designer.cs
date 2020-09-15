@@ -30,16 +30,16 @@
             this.lbMessage = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbCaption = new System.Windows.Forms.Label();
+            this.btClose = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btYes = new System.Windows.Forms.Button();
             this.btNo = new System.Windows.Forms.Button();
             this.btCancel = new System.Windows.Forms.Button();
             this.picIcon = new System.Windows.Forms.PictureBox();
-            this.btClose = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).BeginInit();
             this.SuspendLayout();
             // 
             // lbMessage
@@ -77,52 +77,9 @@
             this.lbCaption.Font = new System.Drawing.Font("Phetsarath OT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCaption.Location = new System.Drawing.Point(29, 4);
             this.lbCaption.Name = "lbCaption";
-            this.lbCaption.Size = new System.Drawing.Size(71, 21);
+            this.lbCaption.Size = new System.Drawing.Size(70, 21);
             this.lbCaption.TabIndex = 4;
-            this.lbCaption.Text = "lbCaption";
-            // 
-            // btYes
-            // 
-            this.btYes.DialogResult = System.Windows.Forms.DialogResult.Yes;
-            this.btYes.Font = new System.Drawing.Font("Times New Roman", 11.25F);
-            this.btYes.Location = new System.Drawing.Point(251, 130);
-            this.btYes.Name = "btYes";
-            this.btYes.Size = new System.Drawing.Size(39, 29);
-            this.btYes.TabIndex = 3;
-            this.btYes.Text = "Yes";
-            this.btYes.UseVisualStyleBackColor = true;
-            // 
-            // btNo
-            // 
-            this.btNo.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.btNo.Font = new System.Drawing.Font("Times New Roman", 11.25F);
-            this.btNo.Location = new System.Drawing.Point(300, 130);
-            this.btNo.Name = "btNo";
-            this.btNo.Size = new System.Drawing.Size(39, 29);
-            this.btNo.TabIndex = 2;
-            this.btNo.Text = "No";
-            this.btNo.UseVisualStyleBackColor = true;
-            // 
-            // btCancel
-            // 
-            this.btCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btCancel.Font = new System.Drawing.Font("Times New Roman", 11.25F);
-            this.btCancel.Location = new System.Drawing.Point(350, 130);
-            this.btCancel.Name = "btCancel";
-            this.btCancel.Size = new System.Drawing.Size(59, 29);
-            this.btCancel.TabIndex = 1;
-            this.btCancel.Text = "Cancel";
-            this.btCancel.UseVisualStyleBackColor = true;
-            // 
-            // picIcon
-            // 
-            this.picIcon.Image = global::MyMessageBox.Properties.Resources.infor;
-            this.picIcon.Location = new System.Drawing.Point(3, 30);
-            this.picIcon.Name = "picIcon";
-            this.picIcon.Size = new System.Drawing.Size(40, 40);
-            this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picIcon.TabIndex = 667;
-            this.picIcon.TabStop = false;
+            this.lbCaption.Text = "Message";
             // 
             // btClose
             // 
@@ -162,6 +119,48 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.gunaCircleButton1_Click);
             // 
+            // btYes
+            // 
+            this.btYes.DialogResult = System.Windows.Forms.DialogResult.Yes;
+            this.btYes.Font = new System.Drawing.Font("Times New Roman", 11.25F);
+            this.btYes.Location = new System.Drawing.Point(251, 130);
+            this.btYes.Name = "btYes";
+            this.btYes.Size = new System.Drawing.Size(39, 29);
+            this.btYes.TabIndex = 3;
+            this.btYes.Text = "Yes";
+            this.btYes.UseVisualStyleBackColor = true;
+            // 
+            // btNo
+            // 
+            this.btNo.DialogResult = System.Windows.Forms.DialogResult.No;
+            this.btNo.Font = new System.Drawing.Font("Times New Roman", 11.25F);
+            this.btNo.Location = new System.Drawing.Point(300, 130);
+            this.btNo.Name = "btNo";
+            this.btNo.Size = new System.Drawing.Size(39, 29);
+            this.btNo.TabIndex = 2;
+            this.btNo.Text = "No";
+            this.btNo.UseVisualStyleBackColor = true;
+            // 
+            // btCancel
+            // 
+            this.btCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btCancel.Font = new System.Drawing.Font("Times New Roman", 11.25F);
+            this.btCancel.Location = new System.Drawing.Point(350, 130);
+            this.btCancel.Name = "btCancel";
+            this.btCancel.Size = new System.Drawing.Size(59, 29);
+            this.btCancel.TabIndex = 1;
+            this.btCancel.Text = "Cancel";
+            this.btCancel.UseVisualStyleBackColor = true;
+            // 
+            // picIcon
+            // 
+            this.picIcon.Location = new System.Drawing.Point(3, 30);
+            this.picIcon.Name = "picIcon";
+            this.picIcon.Size = new System.Drawing.Size(40, 40);
+            this.picIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picIcon.TabIndex = 667;
+            this.picIcon.TabStop = false;
+            // 
             // MsgYesNoCancel
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -181,8 +180,8 @@
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.MsgYesNo_KeyDown);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picIcon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

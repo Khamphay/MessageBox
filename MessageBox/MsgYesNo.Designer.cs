@@ -83,9 +83,9 @@
             this.lbCaption.Font = new System.Drawing.Font("Phetsarath OT", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbCaption.Location = new System.Drawing.Point(29, 4);
             this.lbCaption.Name = "lbCaption";
-            this.lbCaption.Size = new System.Drawing.Size(71, 21);
+            this.lbCaption.Size = new System.Drawing.Size(70, 21);
             this.lbCaption.TabIndex = 4;
-            this.lbCaption.Text = "lbCaption";
+            this.lbCaption.Text = "Message";
             // 
             // panel1
             // 
@@ -143,7 +143,6 @@
             // 
             // picIcon
             // 
-            this.picIcon.Image = global::MyMessageBox.Properties.Resources.infor;
             this.picIcon.Location = new System.Drawing.Point(3, 32);
             this.picIcon.Name = "picIcon";
             this.picIcon.Size = new System.Drawing.Size(40, 40);

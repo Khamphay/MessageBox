@@ -1,4 +1,3 @@
-D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MessageBox.Properties.Resources.resources
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.csproj.GenerateResource.cache
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.csproj.CoreCompileInputs.cache
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.MsgYesNoCancel.resources
@@ -8,3 +7,5 @@ D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\MyMessageBox.dll
 D:\Cshart3cs2\MessageBox\MessageBox\bin\Debug\MyMessageBox.pdb
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.dll
 D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.pdb
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.Properties.Resources.resources
+D:\Cshart3cs2\MessageBox\MessageBox\obj\Debug\MyMessageBox.csprojAssemblyReference.cache
