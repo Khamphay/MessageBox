@@ -5,9 +5,13 @@
 3. Drap the file 'MessageBox.dll' to the Reference of your project
 4. How to use:
      Example:
-       -C#:     
-            using MessageBox;
-            MyMessage.Show("ສະບາຍດີ", "ຟອມ", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
-       -VB.Net: 
-            import MessageBox
-            MyMessage.Show("ສະບາຍດີ", "ຟອມ", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
+          -C#:     
+          
+               using MessageBox;
+               MyMessage.Show("ສະບາຍດີ", "ຟອມ", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+               
+               
+          -VB.Net: 
+          
+               import MessageBox
+               MyMessage.Show("ສະບາຍດີ", "ຟອມ", MessageBoxButtons.YesNo, MessageBoxIcon.Information)
